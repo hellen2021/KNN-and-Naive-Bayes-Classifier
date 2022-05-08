@@ -6,8 +6,8 @@ This week's project requires us to implement a K-nearest neighbor (kNN) classifi
 Experimental Procedure:
 
 1. Download the two datasets from the given links:
-2. Dataset 1 Source: [Train Dataset Source: Link (Links to an external site.), Test Dataset Source: Link (Links to an external site.)]
-3. Dataset 2 Source: [Link (Links to an external site.)]
+2. Dataset 1 Source: Train Dataset Source: [Link](https://archive.org/download/train5_202002/train%20%285%29.csv) Test Dataset Source: [Link](https://archive.org/download/test1_202002/test%20%281%29.csv)
+3. Dataset 2 Source: [Link](https://archive.ics.uci.edu/ml/datasets/Spambase)
 4. Randomly partition each dataset into two parts i.e 80 - 20  sets.
 5. For dataset 1, because we don't have the label for the test set, we will use the train set to create train and test data (i.e. splitting further), then perform K-nearest neighbor classification.
 6. For dataset 2, perform classification of the testing set samples using the Naive Bayes Classifier.
